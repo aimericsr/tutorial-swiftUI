@@ -10,7 +10,6 @@
 		A86165E6283A8DE000B82806 /* TutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86165E5283A8DE000B82806 /* TutorialApp.swift */; };
 		A86165EA283A8DE100B82806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A86165E9283A8DE100B82806 /* Assets.xcassets */; };
 		A86165ED283A8DE100B82806 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A86165EC283A8DE100B82806 /* Preview Assets.xcassets */; };
-		A86165F4283A8E6700B82806 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86165F3283A8E6700B82806 /* ContentView.swift */; };
 		A86165F8283A8E7D00B82806 /* LaunchScreenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86165F6283A8E7D00B82806 /* LaunchScreenManager.swift */; };
 		A86165F9283A8E7D00B82806 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86165F7283A8E7D00B82806 /* LaunchScreenView.swift */; };
 		A86165FD283A8F8500B82806 /* AsyncImageScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86165FB283A8F8500B82806 /* AsyncImageScreen.swift */; };
@@ -138,7 +137,6 @@
 		A86165E5283A8DE000B82806 /* TutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialApp.swift; sourceTree = "<group>"; };
 		A86165E9283A8DE100B82806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A86165EC283A8DE100B82806 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A86165F3283A8E6700B82806 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A86165F6283A8E7D00B82806 /* LaunchScreenManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreenManager.swift; sourceTree = "<group>"; };
 		A86165F7283A8E7D00B82806 /* LaunchScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
 		A86165FA283A8ED800B82806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -293,7 +291,6 @@
 			isa = PBXGroup;
 			children = (
 				A86165E5283A8DE000B82806 /* TutorialApp.swift */,
-				A86165F3283A8E6700B82806 /* ContentView.swift */,
 				A86165FA283A8ED800B82806 /* Info.plist */,
 				A86166D0283AA7F300B82806 /* ImageManagement */,
 				A86166CD283AA52200B82806 /* LifeCycle */,
@@ -828,7 +825,6 @@
 				A8616686283A8F9400B82806 /* CreateContactView.swift in Sources */,
 				A861669B283A8F9400B82806 /* StacksScreen.swift in Sources */,
 				A8679E4A283E3BAE0094CA05 /* UsernameView.swift in Sources */,
-				A86165F4283A8E6700B82806 /* ContentView.swift in Sources */,
 				A8616673283A8F9400B82806 /* SendButton.swift in Sources */,
 				A86165F8283A8E7D00B82806 /* LaunchScreenManager.swift in Sources */,
 				A86166C5283A9ADB00B82806 /* Models.swift in Sources */,
