@@ -130,6 +130,10 @@
 		A8679E5B283E3C080094CA05 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8679E53283E3C080094CA05 /* OnboardingView.swift */; };
 		A8679E5C283E3C080094CA05 /* OnboardingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8679E54283E3C080094CA05 /* OnboardingManager.swift */; };
 		A8679E5D283E3C080094CA05 /* LoginViewOnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8679E55283E3C080094CA05 /* LoginViewOnBoarding.swift */; };
+		A8679E63283E56420094CA05 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8679E5F283E56420094CA05 /* UserModel.swift */; };
+		A8679E64283E56420094CA05 /* UserRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8679E60283E56420094CA05 /* UserRoot.swift */; };
+		A8679E65283E56420094CA05 /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8679E61283E56420094CA05 /* UsersViewModel.swift */; };
+		A8679E66283E56420094CA05 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8679E62283E56420094CA05 /* UserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -258,6 +262,10 @@
 		A8679E53283E3C080094CA05 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		A8679E54283E3C080094CA05 /* OnboardingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingManager.swift; sourceTree = "<group>"; };
 		A8679E55283E3C080094CA05 /* LoginViewOnBoarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewOnBoarding.swift; sourceTree = "<group>"; };
+		A8679E5F283E56420094CA05 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		A8679E60283E56420094CA05 /* UserRoot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRoot.swift; sourceTree = "<group>"; };
+		A8679E61283E56420094CA05 /* UsersViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
+		A8679E62283E56420094CA05 /* UserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -296,6 +304,7 @@
 				A86166CD283AA52200B82806 /* LifeCycle */,
 				A8679E24283E33C10094CA05 /* AsyncImageCustom */,
 				A8616648283A8F9400B82806 /* Alerts */,
+				A8679E5E283E560E0094CA05 /* APICalls */,
 				A861664F283A8F9400B82806 /* Animation */,
 				A8616614283A8F9400B82806 /* Basics */,
 				A86165FF283A8F9400B82806 /* BuildInWidget */,
@@ -746,6 +755,17 @@
 			path = OnBoarding;
 			sourceTree = "<group>";
 		};
+		A8679E5E283E560E0094CA05 /* APICalls */ = {
+			isa = PBXGroup;
+			children = (
+				A8679E60283E56420094CA05 /* UserRoot.swift */,
+				A8679E5F283E56420094CA05 /* UserModel.swift */,
+				A8679E61283E56420094CA05 /* UsersViewModel.swift */,
+				A8679E62283E56420094CA05 /* UserView.swift */,
+			);
+			path = APICalls;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -818,6 +838,7 @@
 			files = (
 				A8616690283A8F9400B82806 /* PromoItem.swift in Sources */,
 				A8616679283A8F9400B82806 /* Toggle+CheckBoxStyle.swift in Sources */,
+				A8679E66283E56420094CA05 /* UserView.swift in Sources */,
 				A86166A9283A8F9400B82806 /* AnimationScreen.swift in Sources */,
 				A8616685283A8F9400B82806 /* ContactInfoView.swift in Sources */,
 				A861667D283A8F9400B82806 /* SafeAreaScreen.swift in Sources */,
@@ -849,6 +870,7 @@
 				A8679E5A283E3C080094CA05 /* TermsAgreementViewOnBoarding.swift in Sources */,
 				A8679E48283E3BAE0094CA05 /* BioView.swift in Sources */,
 				A861666E283A8F9400B82806 /* ContextMenu.swift in Sources */,
+				A8679E65283E56420094CA05 /* UsersViewModel.swift in Sources */,
 				A8616693283A8F9400B82806 /* FoodItemView.swift in Sources */,
 				A8616683283A8F9400B82806 /* LayoutScreen.swift in Sources */,
 				A8616692283A8F9400B82806 /* PromosView.swift in Sources */,
@@ -884,6 +906,7 @@
 				A861669E283A8F9400B82806 /* SheetManager.swift in Sources */,
 				A86166CA283A9ADB00B82806 /* FormManager.swift in Sources */,
 				A861669F283A8F9400B82806 /* PopupView.swift in Sources */,
+				A8679E64283E56420094CA05 /* UserRoot.swift in Sources */,
 				A861667B283A8F9400B82806 /* Label+CapsuleStyle.swift in Sources */,
 				A861668B283A8F9400B82806 /* MenuViewModel.swift in Sources */,
 				A86166B4283A8F9400B82806 /* RootLogin.swift in Sources */,
@@ -936,6 +959,7 @@
 				A86166B3283A8F9400B82806 /* LoginView.swift in Sources */,
 				A8679E4B283E3BAE0094CA05 /* AgeView.swift in Sources */,
 				A861668A283A8F9400B82806 /* FormRoot.swift in Sources */,
+				A8679E63283E56420094CA05 /* UserModel.swift in Sources */,
 				A8679E3A283E35370094CA05 /* FoodItemViewAsync.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

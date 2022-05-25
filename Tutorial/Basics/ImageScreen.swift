@@ -44,6 +44,6 @@ struct ImageScreen: View {
 
 struct ImageScreen_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ImageScreen()
     }
 }

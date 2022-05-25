@@ -39,7 +39,7 @@ struct FoodItemViewAsync: View {
                             .padding()
                             .background(.blue, in: RoundedRectangle(cornerRadius: 8,
                                                                     style: .continuous))
-                    case .failure(let error):
+                    case .failure:
                         
                         Image(systemName: "xmark")
                                             .symbolVariant(.circle.fill)

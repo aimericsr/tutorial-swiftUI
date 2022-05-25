@@ -31,6 +31,6 @@ struct RootLogin: View {
 
 struct RootLogin_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        RootLogin()
     }
 }

@@ -52,6 +52,8 @@ final class SessionManager: ObservableObject {
         let hasCompletedSignUpFlow = UserDefaults.standard.bool(forKey: UserDefaultKeys.hasCompletedSignUpFlow)
         let hasCompletedOnboarding = UserDefaults.standard.bool(forKey: UserDefaultKeys.hasSeenOnboarding)
         
+        
+        
         if hasCompletedSignUpFlow {
             currentState = .loggedOut
         } else {

@@ -15,7 +15,6 @@ struct SampleAppApp: App {
         WindowGroup {
             MainAppView()
                 .environmentObject(session)
-            
         }
     }
 }
