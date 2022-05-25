@@ -118,6 +118,19 @@
 		A8679E3E283E35370094CA05 /* FileStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8679E32283E35370094CA05 /* FileStorageManager.swift */; };
 		A8679E3F283E35370094CA05 /* CachedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8679E33283E35370094CA05 /* CachedImage.swift */; };
 		A8679E40283E35370094CA05 /* MenuViewModelAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8679E35283E35370094CA05 /* MenuViewModelAsync.swift */; };
+		A8679E48283E3BAE0094CA05 /* BioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8679E43283E3BAE0094CA05 /* BioView.swift */; };
+		A8679E49283E3BAE0094CA05 /* RegistrationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8679E44283E3BAE0094CA05 /* RegistrationManager.swift */; };
+		A8679E4A283E3BAE0094CA05 /* UsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8679E45283E3BAE0094CA05 /* UsernameView.swift */; };
+		A8679E4B283E3BAE0094CA05 /* AgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8679E46283E3BAE0094CA05 /* AgeView.swift */; };
+		A8679E4C283E3BAE0094CA05 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8679E47283E3BAE0094CA05 /* SignUpView.swift */; };
+		A8679E56283E3C080094CA05 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8679E4E283E3C070094CA05 /* SessionManager.swift */; };
+		A8679E57283E3C080094CA05 /* OnboardingInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8679E4F283E3C070094CA05 /* OnboardingInfoView.swift */; };
+		A8679E58283E3C080094CA05 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8679E50283E3C070094CA05 /* HomeView.swift */; };
+		A8679E59283E3C080094CA05 /* MainAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8679E51283E3C070094CA05 /* MainAppView.swift */; };
+		A8679E5A283E3C080094CA05 /* TermsAgreementViewOnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8679E52283E3C080094CA05 /* TermsAgreementViewOnBoarding.swift */; };
+		A8679E5B283E3C080094CA05 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8679E53283E3C080094CA05 /* OnboardingView.swift */; };
+		A8679E5C283E3C080094CA05 /* OnboardingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8679E54283E3C080094CA05 /* OnboardingManager.swift */; };
+		A8679E5D283E3C080094CA05 /* LoginViewOnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8679E55283E3C080094CA05 /* LoginViewOnBoarding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -234,6 +247,19 @@
 		A8679E32283E35370094CA05 /* FileStorageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileStorageManager.swift; sourceTree = "<group>"; };
 		A8679E33283E35370094CA05 /* CachedImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CachedImage.swift; sourceTree = "<group>"; };
 		A8679E35283E35370094CA05 /* MenuViewModelAsync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewModelAsync.swift; sourceTree = "<group>"; };
+		A8679E43283E3BAE0094CA05 /* BioView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BioView.swift; sourceTree = "<group>"; };
+		A8679E44283E3BAE0094CA05 /* RegistrationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationManager.swift; sourceTree = "<group>"; };
+		A8679E45283E3BAE0094CA05 /* UsernameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsernameView.swift; sourceTree = "<group>"; };
+		A8679E46283E3BAE0094CA05 /* AgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgeView.swift; sourceTree = "<group>"; };
+		A8679E47283E3BAE0094CA05 /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		A8679E4E283E3C070094CA05 /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		A8679E4F283E3C070094CA05 /* OnboardingInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingInfoView.swift; sourceTree = "<group>"; };
+		A8679E50283E3C070094CA05 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A8679E51283E3C070094CA05 /* MainAppView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainAppView.swift; sourceTree = "<group>"; };
+		A8679E52283E3C080094CA05 /* TermsAgreementViewOnBoarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsAgreementViewOnBoarding.swift; sourceTree = "<group>"; };
+		A8679E53283E3C080094CA05 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		A8679E54283E3C080094CA05 /* OnboardingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingManager.swift; sourceTree = "<group>"; };
+		A8679E55283E3C080094CA05 /* LoginViewOnBoarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewOnBoarding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -283,6 +309,7 @@
 				A86165F5283A8E7D00B82806 /* Launch */,
 				A8616625283A8F9400B82806 /* Lists */,
 				A8616604283A8F9400B82806 /* Menu */,
+				A8679E41283E3B200094CA05 /* OnBoardingFlow */,
 				A8616655283A8F9400B82806 /* PassingData */,
 				A8616664283A8F9400B82806 /* ShowViews */,
 				A8679E19283E30330094CA05 /* ShowingViews */,
@@ -686,6 +713,42 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		A8679E41283E3B200094CA05 /* OnBoardingFlow */ = {
+			isa = PBXGroup;
+			children = (
+				A8679E4D283E3BFE0094CA05 /* OnBoarding */,
+				A8679E42283E3B9C0094CA05 /* FormViews */,
+			);
+			path = OnBoardingFlow;
+			sourceTree = "<group>";
+		};
+		A8679E42283E3B9C0094CA05 /* FormViews */ = {
+			isa = PBXGroup;
+			children = (
+				A8679E46283E3BAE0094CA05 /* AgeView.swift */,
+				A8679E43283E3BAE0094CA05 /* BioView.swift */,
+				A8679E44283E3BAE0094CA05 /* RegistrationManager.swift */,
+				A8679E47283E3BAE0094CA05 /* SignUpView.swift */,
+				A8679E45283E3BAE0094CA05 /* UsernameView.swift */,
+			);
+			path = FormViews;
+			sourceTree = "<group>";
+		};
+		A8679E4D283E3BFE0094CA05 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				A8679E50283E3C070094CA05 /* HomeView.swift */,
+				A8679E55283E3C080094CA05 /* LoginViewOnBoarding.swift */,
+				A8679E51283E3C070094CA05 /* MainAppView.swift */,
+				A8679E4F283E3C070094CA05 /* OnboardingInfoView.swift */,
+				A8679E54283E3C080094CA05 /* OnboardingManager.swift */,
+				A8679E53283E3C080094CA05 /* OnboardingView.swift */,
+				A8679E4E283E3C070094CA05 /* SessionManager.swift */,
+				A8679E52283E3C080094CA05 /* TermsAgreementViewOnBoarding.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -764,6 +827,7 @@
 				A8616694283A8F9400B82806 /* NumbersList.swift in Sources */,
 				A8616686283A8F9400B82806 /* CreateContactView.swift in Sources */,
 				A861669B283A8F9400B82806 /* StacksScreen.swift in Sources */,
+				A8679E4A283E3BAE0094CA05 /* UsernameView.swift in Sources */,
 				A86165F4283A8E6700B82806 /* ContentView.swift in Sources */,
 				A8616673283A8F9400B82806 /* SendButton.swift in Sources */,
 				A86165F8283A8E7D00B82806 /* LaunchScreenManager.swift in Sources */,
@@ -783,8 +847,11 @@
 				A861669C283A8F9400B82806 /* RootPopUp.swift in Sources */,
 				A8616688283A8F9400B82806 /* ContactsViewModel.swift in Sources */,
 				A86166A2283A8F9400B82806 /* AlertScreen.swift in Sources */,
+				A8679E5C283E3C080094CA05 /* OnboardingManager.swift in Sources */,
 				A86166A1283A8F9400B82806 /* NetworkManager.swift in Sources */,
 				A86166A8283A8F9400B82806 /* SyncLogo.swift in Sources */,
+				A8679E5A283E3C080094CA05 /* TermsAgreementViewOnBoarding.swift in Sources */,
+				A8679E48283E3BAE0094CA05 /* BioView.swift in Sources */,
 				A861666E283A8F9400B82806 /* ContextMenu.swift in Sources */,
 				A8616693283A8F9400B82806 /* FoodItemView.swift in Sources */,
 				A8616683283A8F9400B82806 /* LayoutScreen.swift in Sources */,
@@ -794,6 +861,7 @@
 				A8679E20283E305F0094CA05 /* UserInView.swift in Sources */,
 				A8616677283A8F9400B82806 /* ControlGroup+QuantityStyle.swift in Sources */,
 				A86166AE283A8F9400B82806 /* PurshaseStatusView.swift in Sources */,
+				A8679E5D283E3C080094CA05 /* LoginViewOnBoarding.swift in Sources */,
 				A861667F283A8F9400B82806 /* SpacerScreen.swift in Sources */,
 				A8679E3E283E35370094CA05 /* FileStorageManager.swift in Sources */,
 				A86166CC283A9ADB00B82806 /* FormView.swift in Sources */,
@@ -803,10 +871,12 @@
 				A86166C7283A9ADB00B82806 /* RootCustomForm.swift in Sources */,
 				A8616675283A8F9400B82806 /* ProgressView+RoudedStyle.swift in Sources */,
 				A86166CF283AA52D00B82806 /* LifeCycle.swift in Sources */,
+				A8679E57283E3C080094CA05 /* OnboardingInfoView.swift in Sources */,
 				A8616699283A8F9400B82806 /* ListScreen.swift in Sources */,
 				A8616676283A8F9400B82806 /* ProgressViewScreen.swift in Sources */,
 				A8616691283A8F9400B82806 /* PromoItemView.swift in Sources */,
 				A86166A3283A8F9400B82806 /* NetworkError.swift in Sources */,
+				A8679E58283E3C080094CA05 /* HomeView.swift in Sources */,
 				A8679E3D283E35370094CA05 /* ImageRetriever.swift in Sources */,
 				A86166D5283AAD7200B82806 /* UserScreen.swift in Sources */,
 				A86166BA283A8F9400B82806 /* TermsAgreementView.swift in Sources */,
@@ -821,12 +891,14 @@
 				A861667B283A8F9400B82806 /* Label+CapsuleStyle.swift in Sources */,
 				A861668B283A8F9400B82806 /* MenuViewModel.swift in Sources */,
 				A86166B4283A8F9400B82806 /* RootLogin.swift in Sources */,
+				A8679E59283E3C080094CA05 /* MainAppView.swift in Sources */,
 				A8679E3C283E35370094CA05 /* CachedImageManager.swift in Sources */,
 				A86166B6283A8F9400B82806 /* WarningView.swift in Sources */,
 				A86165E6283A8DE000B82806 /* TutorialApp.swift in Sources */,
 				A86165F9283A8E7D00B82806 /* LaunchScreenView.swift in Sources */,
 				A8679E3F283E35370094CA05 /* CachedImage.swift in Sources */,
 				A86166AC283A8F9400B82806 /* PeopleViewModel.swift in Sources */,
+				A8679E49283E3BAE0094CA05 /* RegistrationManager.swift in Sources */,
 				A861666A283A8F9400B82806 /* StepperScreen.swift in Sources */,
 				A86166A4283A8F9400B82806 /* ButtonExemple.swift in Sources */,
 				A86165FD283A8F8500B82806 /* AsyncImageScreen.swift in Sources */,
@@ -842,10 +914,12 @@
 				A8616670283A8F9400B82806 /* PaddingScreen.swift in Sources */,
 				A8616680283A8F9400B82806 /* TextScreen.swift in Sources */,
 				A8616689283A8F9400B82806 /* NewContact.swift in Sources */,
+				A8679E5B283E3C080094CA05 /* OnboardingView.swift in Sources */,
 				A86166B5283A8F9400B82806 /* LoggedInView.swift in Sources */,
 				A8679E22283E305F0094CA05 /* RootShowView.swift in Sources */,
 				A86166AD283A8F9400B82806 /* BindingScreen.swift in Sources */,
 				A8616672283A8F9400B82806 /* PickerScreen.swift in Sources */,
+				A8679E56283E3C080094CA05 /* SessionManager.swift in Sources */,
 				A8616695283A8F9400B82806 /* PeopleVM.swift in Sources */,
 				A86166B2283A8F9400B82806 /* LoginViewModel.swift in Sources */,
 				A86166AF283A8F9400B82806 /* PurshaseStateView.swift in Sources */,
@@ -853,6 +927,7 @@
 				A86166C8283A9ADB00B82806 /* LoginFormManager.swift in Sources */,
 				A86166B9283A8F9400B82806 /* UserInputView.swift in Sources */,
 				A861667C283A8F9400B82806 /* ShapeScreen.swift in Sources */,
+				A8679E4C283E3BAE0094CA05 /* SignUpView.swift in Sources */,
 				A86166A6283A8F9400B82806 /* SyncAnimationView.swift in Sources */,
 				A8616698283A8F9400B82806 /* EmptyViewSearch.swift in Sources */,
 				A8679E37283E35370094CA05 /* AsyncImageCustom.swift in Sources */,
@@ -863,6 +938,7 @@
 				A8616696283A8F9400B82806 /* Person.swift in Sources */,
 				A8616678283A8F9400B82806 /* Button+SendStyle.swift in Sources */,
 				A86166B3283A8F9400B82806 /* LoginView.swift in Sources */,
+				A8679E4B283E3BAE0094CA05 /* AgeView.swift in Sources */,
 				A861668A283A8F9400B82806 /* FormRoot.swift in Sources */,
 				A8679E3A283E35370094CA05 /* FoodItemViewAsync.swift in Sources */,
 			);

@@ -52,44 +52,13 @@ struct SampleAppApp: App {
     @StateObject private var vm = PurshaseViewModel()
     @StateObject private var router = TabRouter()
     
+    @StateObject private var session = SessionManager()
+    
     var body: some Scene {
         WindowGroup {
-            ZStack {
-                TabView(selection: $router.screen) {
-                    PurshaseView()
-                        .badge(4)
-                        .tag(Screen.purshase)
-                        .tabItem {
-                            Label("Purshased", systemImage: "creditcard")
-                        }
-                    FormRoot()
-                        .tag(Screen.pusrshaseState)
-                        .tabItem {
-                            Image(systemName: "gear")
-                            Text("State")
-                        }
-                    AsyncImageCustom()
-                        .tag(Screen.rootLogin)
-                        .tabItem {
-                            Image(systemName: "person.fill")
-                            Text("Loging")
-                        }
-                    LazyGridScreen()
-                        .tag(Screen.form)
-                        .tabItem {
-                            Image(systemName: "person.fill")
-                            Text("iTest")
-                        }
-                }
-                .environmentObject(vm)
-                .environmentObject(router)
-                .environmentObject(sheetManager)
-                
-                if launchScreenManager.state != .completed {
-                    LaunchScreenView()
-                }
-            }
-            .environmentObject(launchScreenManager)
+            MainAppView()
+                .environmentObject(session)
+
         }
     }
 }
