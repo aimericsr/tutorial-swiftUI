@@ -14,36 +14,37 @@ final class UsersViewModel: ObservableObject {
     @Published private(set) var isRefreshing = false
     
     func fetchUsers() async throws {
-        
+
         let usersUrlString = "https://jsonplaceholder.typicode.com/users"
-        
+
         if let url = URL(string: usersUrlString) {
 
             isRefreshing = true
-            
+
             defer { isRefreshing = false }
-            
+
             do {
-                
+
                 let (data, response) = try await URLSession.shared.data(from: url)
 
                 guard let response = response as? HTTPURLResponse,
                       response.statusCode >= 200 && response.statusCode <= 299 else {
                     throw UserError.invalidStatusCode
                 }
-                
+
                 let decoder = JSONDecoder()
                 guard let users = try? decoder.decode([UserAPI].self, from: data) else {
                     throw UserError.failedToDecode
                 }
                 self.users = users
-                
+
             } catch {
                 throw UserError.custom(error: error)
             }
         }
-        
     }
+    
+    
 }
 
 extension UsersViewModel {

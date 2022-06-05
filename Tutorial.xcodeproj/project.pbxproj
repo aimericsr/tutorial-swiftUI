@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8333D7B283E9A41007E9BCE /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8333D7A283E9A41007E9BCE /* Assets.swift */; };
+		A8333D7D283E9A89007E9BCE /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8333D7C283E9A89007E9BCE /* ThemeView.swift */; };
 		A86165E6283A8DE000B82806 /* TutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86165E5283A8DE000B82806 /* TutorialApp.swift */; };
 		A86165EA283A8DE100B82806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A86165E9283A8DE100B82806 /* Assets.xcassets */; };
 		A86165ED283A8DE100B82806 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A86165EC283A8DE100B82806 /* Preview Assets.xcassets */; };
@@ -134,9 +136,16 @@
 		A8679E64283E56420094CA05 /* UserRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8679E60283E56420094CA05 /* UserRoot.swift */; };
 		A8679E65283E56420094CA05 /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8679E61283E56420094CA05 /* UsersViewModel.swift */; };
 		A8679E66283E56420094CA05 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8679E62283E56420094CA05 /* UserView.swift */; };
+		A8E31B1A284D0C28001E1A37 /* CodeQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E31B19284D0C28001E1A37 /* CodeQuality.swift */; };
+		A8E31B1C284D0C38001E1A37 /* LogoComponant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E31B1B284D0C38001E1A37 /* LogoComponant.swift */; };
+		A8E31B1E284D0D62001E1A37 /* Previews+ViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E31B1D284D0D62001E1A37 /* Previews+ViewModifier.swift */; };
+		A8E31B20284D1151001E1A37 /* PrivateVarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E31B1F284D1151001E1A37 /* PrivateVarView.swift */; };
+		A8E31B22284D11EB001E1A37 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E31B21284D11EB001E1A37 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A8333D7A283E9A41007E9BCE /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		A8333D7C283E9A89007E9BCE /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		A86165E2283A8DE000B82806 /* Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A86165E5283A8DE000B82806 /* TutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialApp.swift; sourceTree = "<group>"; };
 		A86165E9283A8DE100B82806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -266,6 +275,11 @@
 		A8679E60283E56420094CA05 /* UserRoot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRoot.swift; sourceTree = "<group>"; };
 		A8679E61283E56420094CA05 /* UsersViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
 		A8679E62283E56420094CA05 /* UserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		A8E31B19284D0C28001E1A37 /* CodeQuality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeQuality.swift; sourceTree = "<group>"; };
+		A8E31B1B284D0C38001E1A37 /* LogoComponant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoComponant.swift; sourceTree = "<group>"; };
+		A8E31B1D284D0D62001E1A37 /* Previews+ViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Previews+ViewModifier.swift"; sourceTree = "<group>"; };
+		A8E31B1F284D1151001E1A37 /* PrivateVarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateVarView.swift; sourceTree = "<group>"; };
+		A8E31B21284D11EB001E1A37 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -279,6 +293,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A8333D79283E9A20007E9BCE /* Dark-light */ = {
+			isa = PBXGroup;
+			children = (
+				A8333D7A283E9A41007E9BCE /* Assets.swift */,
+				A8333D7C283E9A89007E9BCE /* ThemeView.swift */,
+			);
+			path = "Dark-light";
+			sourceTree = "<group>";
+		};
 		A86165D9283A8DE000B82806 = {
 			isa = PBXGroup;
 			children = (
@@ -309,8 +332,9 @@
 				A8616614283A8F9400B82806 /* Basics */,
 				A86165FF283A8F9400B82806 /* BuildInWidget */,
 				A861664C283A8F9400B82806 /* CustomModifiers */,
-				A8616607283A8F9400B82806 /* CustomViews */,
 				A86166BB283A99FD00B82806 /* CustomForm */,
+				A8333D79283E9A20007E9BCE /* Dark-light */,
+				A8E31B18284D0C04001E1A37 /* ImproveCodeQuality */,
 				A861661E283A8F9400B82806 /* FormSample */,
 				A86165F5283A8E7D00B82806 /* Launch */,
 				A8616625283A8F9400B82806 /* Lists */,
@@ -766,6 +790,19 @@
 			path = APICalls;
 			sourceTree = "<group>";
 		};
+		A8E31B18284D0C04001E1A37 /* ImproveCodeQuality */ = {
+			isa = PBXGroup;
+			children = (
+				A8616607283A8F9400B82806 /* CustomViews */,
+				A8E31B19284D0C28001E1A37 /* CodeQuality.swift */,
+				A8E31B1B284D0C38001E1A37 /* LogoComponant.swift */,
+				A8E31B1D284D0D62001E1A37 /* Previews+ViewModifier.swift */,
+				A8E31B1F284D1151001E1A37 /* PrivateVarView.swift */,
+				A8E31B21284D11EB001E1A37 /* Theme.swift */,
+			);
+			path = ImproveCodeQuality;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -842,6 +879,7 @@
 				A86166A9283A8F9400B82806 /* AnimationScreen.swift in Sources */,
 				A8616685283A8F9400B82806 /* ContactInfoView.swift in Sources */,
 				A861667D283A8F9400B82806 /* SafeAreaScreen.swift in Sources */,
+				A8E31B1E284D0D62001E1A37 /* Previews+ViewModifier.swift in Sources */,
 				A8616694283A8F9400B82806 /* NumbersList.swift in Sources */,
 				A8616686283A8F9400B82806 /* CreateContactView.swift in Sources */,
 				A861669B283A8F9400B82806 /* StacksScreen.swift in Sources */,
@@ -852,6 +890,7 @@
 				A861666D283A8F9400B82806 /* SliderScreen.swift in Sources */,
 				A8616671283A8F9400B82806 /* ButtonScreen.swift in Sources */,
 				A8679E21283E305F0094CA05 /* UserInVM.swift in Sources */,
+				A8E31B20284D1151001E1A37 /* PrivateVarView.swift in Sources */,
 				A86166A7283A8F9400B82806 /* TransitionScreen.swift in Sources */,
 				A86165FE283A8F8500B82806 /* ScrollScreen.swift in Sources */,
 				A8679E1F283E305F0094CA05 /* TermsView.swift in Sources */,
@@ -864,6 +903,7 @@
 				A861669C283A8F9400B82806 /* RootPopUp.swift in Sources */,
 				A8616688283A8F9400B82806 /* ContactsViewModel.swift in Sources */,
 				A86166A2283A8F9400B82806 /* AlertScreen.swift in Sources */,
+				A8E31B1C284D0C38001E1A37 /* LogoComponant.swift in Sources */,
 				A8679E5C283E3C080094CA05 /* OnboardingManager.swift in Sources */,
 				A86166A1283A8F9400B82806 /* NetworkManager.swift in Sources */,
 				A86166A8283A8F9400B82806 /* SyncLogo.swift in Sources */,
@@ -878,6 +918,7 @@
 				A8616687283A8F9400B82806 /* CreateContactViewModel.swift in Sources */,
 				A8679E20283E305F0094CA05 /* UserInView.swift in Sources */,
 				A8616677283A8F9400B82806 /* ControlGroup+QuantityStyle.swift in Sources */,
+				A8333D7D283E9A89007E9BCE /* ThemeView.swift in Sources */,
 				A86166AE283A8F9400B82806 /* PurshaseStatusView.swift in Sources */,
 				A8679E5D283E3C080094CA05 /* LoginViewOnBoarding.swift in Sources */,
 				A861667F283A8F9400B82806 /* SpacerScreen.swift in Sources */,
@@ -889,6 +930,7 @@
 				A86166C7283A9ADB00B82806 /* RootCustomForm.swift in Sources */,
 				A8616675283A8F9400B82806 /* ProgressView+RoudedStyle.swift in Sources */,
 				A86166CF283AA52D00B82806 /* LifeCycle.swift in Sources */,
+				A8333D7B283E9A41007E9BCE /* Assets.swift in Sources */,
 				A8679E57283E3C080094CA05 /* OnboardingInfoView.swift in Sources */,
 				A8616699283A8F9400B82806 /* ListScreen.swift in Sources */,
 				A8616676283A8F9400B82806 /* ProgressViewScreen.swift in Sources */,
@@ -912,8 +954,10 @@
 				A86166B4283A8F9400B82806 /* RootLogin.swift in Sources */,
 				A8679E59283E3C080094CA05 /* MainAppView.swift in Sources */,
 				A8679E3C283E35370094CA05 /* CachedImageManager.swift in Sources */,
+				A8E31B22284D11EB001E1A37 /* Theme.swift in Sources */,
 				A86166B6283A8F9400B82806 /* WarningView.swift in Sources */,
 				A86165E6283A8DE000B82806 /* TutorialApp.swift in Sources */,
+				A8E31B1A284D0C28001E1A37 /* CodeQuality.swift in Sources */,
 				A86165F9283A8E7D00B82806 /* LaunchScreenView.swift in Sources */,
 				A8679E3F283E35370094CA05 /* CachedImage.swift in Sources */,
 				A86166AC283A8F9400B82806 /* PeopleViewModel.swift in Sources */,

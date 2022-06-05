@@ -42,7 +42,7 @@ struct HomeView: View {
                                 .tabItem {
                                     Label("Purshased", systemImage: "creditcard")
                                 }
-                            FormRoot()
+                            ThemeView()
                                 .tag(Screen.pusrshaseState)
                                 .tabItem {
                                     Image(systemName: "gear")
