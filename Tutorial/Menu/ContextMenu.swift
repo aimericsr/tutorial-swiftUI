@@ -60,7 +60,7 @@ struct ContextMenu: View {
 //             primaryAction: {
 //                print("default actions")
 //            }
-            .menuStyle(.button)
+            .menuStyle(.automatic)
             
         }
     }
